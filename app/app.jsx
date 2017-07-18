@@ -11,7 +11,7 @@ require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
 // App css
-require('style!css!applicationStyles'); //applicationStyles module loaded using the !css loader and pass that into the !style loader which adds it into our html
+require('style!css!sass!applicationStyles'); //applicationStyles module loaded using necessary loaders
 
 ReactDOM.render(
   <Router history={hashHistory}>
